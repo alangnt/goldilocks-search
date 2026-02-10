@@ -6,7 +6,7 @@ Welcome to **Goldilocks Search**, a data-driven journey through the cosmos to id
 
 This project was created as part of the **Codédex Data Analysis Monthly Challenge**.
 
-## 🚀 Key Features
+## Key Features
 
 - **Interactive Scrollytelling Narrative**: Experience the data discovery process through a guided, step-by-step narrative that explains the science behind the search.
 - **Exoplanet Basics**: Includes specialized sections ("What is an Exoplanet?", "The Goldilocks Zone") to make the science accessible to everyone.
@@ -15,16 +15,16 @@ This project was created as part of the **Codédex Data Analysis Monthly Challen
 - **Plain Language Explanations**: Technical jargon is broken down into simple terms, making complex astrophysical concepts easy to understand.
 - **Direct NASA Archive Integration**: Analyses are based on real-world data directly from the NASA Exoplanet Archive.
 
-## 🔍 Methodology: The Funnel
+## Methodology: The Funnel
 
 The search for Earth 2.0 follows a strict "funnel" approach to filter candidates:
 
-1.  **Confirmed Exoplanets**: Start with the full NASA archive.
-2.  **Radius Filter**: Select planets with a rocky composition (0.5 - 1.6 Earth radii).
-3.  **Temperature Filter**: Identify planets within the "Goldilocks Zone" (equilibrium temperature permitting liquid water).
-4.  **Star Type Filter**: Focus on stable, long-lived stars (F, G, K spectral types) suitable for evolution.
+1. **Confirmed Exoplanets**: Start with the full NASA archive.
+2. **Radius Filter**: Select planets with a rocky composition (0.5 - 1.6 Earth radii).
+3. **Temperature Filter**: Identify planets within the "Goldilocks Zone" (equilibrium temperature permitting liquid water).
+4. **Star Type Filter**: Focus on stable, long-lived stars (F, G, K spectral types) suitable for evolution.
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -33,39 +33,41 @@ The search for Earth 2.0 follows a strict "funnel" approach to filter candidates
 
 ### Installation
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/yourusername/goldilocks-search.git
-    cd goldilocks-search
-    ```
+   ```bash
+   git clone https://github.com/yourusername/goldilocks-search.git
+   cd goldilocks-search
+   ```
 
-2.  **Set up a Virtual Environment:**
-    - **Windows:**
+2. **Set up a Virtual Environment:**
+   - **Windows:**
 
-      ```bash
-      python -m venv .venv
-      .venv\Scripts\activate
-      ```
+     ```bash
+     python -m venv .venv
+     .venv\Scripts\activate
+     ```
 
-    - **MacOS / Linux:**
-      ```bash
-      python3 -m venv .venv
-      source .venv/bin/activate
-      ```
+   - **MacOS / Linux:**
 
-3.  **Install dependencies:**
+     ```bash
+     python3 -m venv .venv
+     source .venv/bin/activate
+     ```
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+3. **Install dependencies:**
 
-4.  **Run the Notebook:**
-    ```bash
-    jupyter notebook exoplanets-goldilocks-search.ipynb
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 📊 Visualizations
+4. **Run the Notebook:**
+
+   ```bash
+   jupyter notebook exoplanets-goldilocks-search.ipynb
+   ```
+
+## Visualizations
 
 The notebook includes dynamic Plotly visualizations:
 
@@ -73,7 +75,7 @@ The notebook includes dynamic Plotly visualizations:
 - **Scatter Plots**: Analyzing the relationship between planet size and orbital period.
 - **3D Globes**: Visualizing the final Earth 2.0 candidates.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **NASA Exoplanet Archive**: For providing the incredible open-access data.
 - **Codédex**: For the monthly challenge inspiration.
