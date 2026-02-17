@@ -36,7 +36,7 @@ The search for Earth 2.0 follows a strict "funnel" approach to filter candidates
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/goldilocks-search.git
+   git clone https://github.com/alangnt/goldilocks-search.git
    cd goldilocks-search
    ```
 
